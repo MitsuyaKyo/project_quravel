@@ -30,7 +30,6 @@
                         <button style="border: 0; background-color:white" onclick="return confirm('Are you sure ?')">
                             <img src="{{ url('images/delete.png') }}" alt="comment" style="width:40px; height:40px "></button>
                     </form>
-
                 </td>
               </tr>
             @endforeach

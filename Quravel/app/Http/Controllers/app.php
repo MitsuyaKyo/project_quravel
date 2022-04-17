@@ -15,7 +15,6 @@ class app extends Controller
             "title" => "home",
             "posts" => $posts->get()
         ]);
-
     }
     public function login(){
         return view('features/login', [

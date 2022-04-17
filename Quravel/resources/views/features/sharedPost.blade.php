@@ -8,8 +8,13 @@
             <form action="/like" method="post">
                 @csrf
                 <input type="hidden" name ="id" value="{{ $post->id }}">
-                <img src="{{ url('images/like.png') }}" alt="like" style="width:20px; height:20px "><button type="submit" class="btn btn-link" style="color:green; font-size:25px">Like</button>
+                <input type="hidden" name ="like" id="like">
+                <img src="{{ url('images/like.png') }}" alt="like" style="width:20px; height:20px ">
+                <button
+                    onclick="addLike({{ $post->like }})" type="submit" class="btn btn-link" style="color:green; font-size:25px">Like
+                </button>
             </form>
+
         <h2 style="color:green"> +{{ $post["like"] }}</h2>
         </div>
 
@@ -42,3 +47,10 @@
 @endforeach
 
 @endsection
+<script>
+    function addLike(int){
+        let num = int+1;
+        document.getElementById('like').value = num;
+    }
+
+</script>

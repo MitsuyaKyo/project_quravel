@@ -52,7 +52,7 @@ class postController extends Controller
     }
     public function like(Request $request){
         $update = Post::find($request->id);
-        $update->like = $update->like +1;
+        $update->like = $request->like;
         $update->push();
         return back();
     }

@@ -28,7 +28,7 @@
         @error('image')
             <div class="invalid-feedback">
                 {{ $message }}
-            </div>
+
         @enderror
     </div>
     <div class="form-group">
@@ -42,7 +42,7 @@
         @enderror
     </div>
     <div class="form-group">
-        <button type="submit" class="btn btn-success mt-4" style="padding-left: 2.5rem; padding-right: 2.5rem;">Post</button>
+        <button type="submit" class="btn btn-success mt-4" style="padding-left: 2.5rem; padding-right: 2.5rem;" >Post</button>
     </div>
 </form>
 @endsection
