@@ -1,0 +1,12 @@
+body {
+    background-image: url('../images/fullmoon.jpg');
+}
+
+#JudulLogin {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+#Tagline {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

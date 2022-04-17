@@ -1,0 +1,23 @@
+body {
+    /* min-height: 2000px; */
+    background-image: url('../images/bgHome.jpg');
+  }
+.jumbotron {
+    padding: 6.2rem 5rem;
+}
+div.a {
+    background-color: whitesmoke;
+    color: black;
+    padding: 50px;
+}
+div.b{
+    background-color: white;
+    color: black;
+    padding: 20px;
+
+}
+div.c{
+    background-color: rgb(206, 221, 206);
+    color: black;
+    padding: 50px;
+}
